@@ -28,7 +28,6 @@ jobs:
           uses: actions/download-artifact@v4
           with:
             name: disk-file
-            path: disk.txt
         
         - name: Test File Exists
           run: grep -i "disk" disk.txt
