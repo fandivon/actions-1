@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 2222
           script: |
-            cd /home/${{ secrets.SSH_USER }}/
+            cd /home/${{ secrets.SSH_USER }}/actions-1
             git fetch --all
             git reset --hard origin/main
             # optional: restart app/service
