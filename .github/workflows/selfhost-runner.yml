@@ -13,7 +13,7 @@ jobs:
 
       - name: List container
         run: |
-          docker ps
+          sudo docker ps
 
 #      - name: Restart app
 #        run: |
