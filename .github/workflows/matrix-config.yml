@@ -2,6 +2,9 @@ name: Matrix Configuration
 
 on:
     push:
+        branches: [ main ]
+        paths:
+            - "storage/**"
     workflow_dispatch:
 
 jobs:
